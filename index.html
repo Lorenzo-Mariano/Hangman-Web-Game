@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Hangmanito ゲーム</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>The Hangman Game</h1>
+      <div class="lives-remaining">Lives Remaining: 10</div>
+      <!-- JS decides content of below -->
+      <div class="hint"></div>
+      <div class="results"></div>
+      <div class="player-answer"></div>
+      <div class="buttons-block">
+
+        <div class="chars">
+          <div class="top-row">
+            <button>Q</button>
+            <button>W</button>
+            <button>E</button>
+            <button>R</button>
+            <button>T</button>
+            <button>Y</button>
+            <button>U</button>
+            <button>I</button>
+            <button>O</button>
+            <button>P</button>
+          </div>
+
+          <div class="mid-row">
+            <button>A</button>
+            <button>S</button>
+            <button>D</button>
+            <button>F</button>
+            <button>G</button>
+            <button>H</button>
+            <button>J</button>
+            <button>K</button>
+            <button>L</button>
+          </div>
+
+          <div class="bottom-row">
+            <button>Z</button>
+            <button>X</button>
+            <button>C</button>
+            <button>V</button>
+            <button>B</button>
+            <button>N</button>
+            <button>M</button>
+          </div>
+        </div>
+
+        <div class="special-buttons">
+          <button class="enter-answer">ENTER!</button>
+          <button class="backspace">&larr;</button>
+          <button class="clear-all">Clear All</button>
+          <button class="next-question">New Question</button>
+          <button class="restart-game">Restart Game</button>
+        </div>
+
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+
+</html>
